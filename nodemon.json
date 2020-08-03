@@ -1,0 +1,10 @@
+{
+    "env": {
+        "debug": "*,-babel,-nodemon"
+    },
+    "ignore": [
+        ".git",
+        "node_modules",
+        "test"
+    ]
+}

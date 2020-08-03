@@ -1,0 +1,25 @@
+{
+  "name": "hamserver-example",
+  "version": "2.0.0",
+  "description": "Ham服务例子",
+  "main": "dist",
+  "repository": "https://git.coding.net/as3long/HamServerExample.git",
+  "author": "as3long <as3long@qq.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@grpc/grpc-js": "^1.0.3",
+    "@grpc/proto-loader": "^0.5.4",
+    "escape-string-regexp": "^4.0.0",
+    "hamserver": "^1.0.6",
+    "mongoose": "^5.9.27"
+  },
+  "devDependencies": {
+    "cross-env": "^4.0.0",
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "client": "node test/client.test.mjs",
+    "dev": "nodemon src/index.mjs",
+    "start": "node src/index.mjs"
+  }
+}
