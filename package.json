@@ -7,7 +7,7 @@
   "author": "as3long <as3long@qq.com>",
   "license": "MIT",
   "dependencies": {
-    "@grpc/grpc-js": "^1.0.3",
+    "@grpc/grpc-js": "^1.1.8",
     "@grpc/proto-loader": "^0.5.4",
     "escape-string-regexp": "^4.0.0",
     "hamserver": "^1.0.6",
